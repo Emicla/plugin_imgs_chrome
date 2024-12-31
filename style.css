@@ -1,0 +1,31 @@
+form {
+    background-color: CCCCCC;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+#input_url {
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px, solid #ddd;
+}
+
+#button_trocar {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00e9e9;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+#button_trocar:hover {
+    background-color: #00d8d8;
+}
